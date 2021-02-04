@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.buttonDiv {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding-bottom: 1rem;
+}
+
+.table {
+  margin: 1rem;
+}
+
+.button {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.error {
+  grid-area: 1 / 1 / 2 / 8;
+  display: flex;
+  justify-content: center;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+}
+
+div.MuiPaper-root > div:nth-child(2) > button {
+  background-color: #0487d8;
+}
